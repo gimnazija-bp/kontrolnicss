@@ -1,0 +1,82 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  height:150px;
+  background-color: aqua;
+  text-align: center;
+}
+
+header h1{
+  margin:0;
+  padding:40px;
+}
+.slika{
+  margin:10px;
+  padding:10px;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 5px gray;
+  width:250px;
+}
+ header img{
+   float:left;
+   width:130px;
+ }
+
+ nav{
+   background-color: #1e1e1e;
+   height:40px;
+ }
+ nav ul{
+   list-style-type: none;
+   margin:0;
+   padding:0;
+ }
+
+ nav ul li{
+  padding:10px;
+  display:block;
+  float:left;
+  text-transform: uppercase;
+  width:80px;
+  
+ }
+
+ nav li:hover{
+  background-color: brown;
+  
+ }
+
+ nav a{padding:0px;
+	 
+   text-decoration: none;
+   font-weight:bold;
+   color:#fff;
+   
+ }
+
+ section{
+   padding:20px;
+   line-height: 2;
+ }
+
+ .okvir{
+   margin:10px;
+   border:2px solid gray;
+   border-radius: 20px;
+   background-color: beige;
+   }
+
+  footer{
+     height:30px;
+     text-align: center;
+     background-color: gray;
+     margin:0;
+     padding:0;
+   }
+
+   footer p{
+     padding:5px;
+   }
